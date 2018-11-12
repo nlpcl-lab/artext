@@ -131,3 +131,7 @@ Noises:
 - I to depart Ieland for vacations ; The crest of the mountain were very frigid. luckily, I were iwwearig snowboard gear.
 - I wenting to Icleand for holiday. The top the of mountains be rattling insensate. Fortunately; I being wearing snowboard gear.
 ```
+
+## Contributor
+
+[Fitsum](http://nlp.kaist.ac.kr/~fgaim)
