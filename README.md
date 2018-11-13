@@ -7,9 +7,9 @@
 
 ### Probabilistic Noising of Natural Language
 
-Artext is a work on injecting noise into text without affecting the its core meaning to a human reader.
+Artext is a work on injecting noise into text without affecting the core meaning for a human reader.
 This kind of data can be useful for many NLP tasks, particulary to make models robust to erroneous text. 
-This is a work in progress, we will publish the results of our experiments soon.
+This is a work in progress, and we will publish the results of our experiments soon.
 Meanwhile, if you use `artext` in your research please cite this repository.
 
 ```
@@ -46,7 +46,7 @@ python -m nltk.download('punckt')
 ## Usage
 
 #### Use from command-line
-Generate sentence or document level noisy samples for a text file follows.
+Generate sentence or document level noisy samples for a text file as follows.
 Use `-h` to show all options.
 ```
 python -m artext -src source.txt -out output.txt -l sent -er 0.5 -n 10
@@ -57,7 +57,7 @@ python -m artext -src source.txt -out output.txt -l sent -er 0.5 -n 10
 python inject.py -src source.txt -out output.txt -l sent -er 0.5 -n 10
 ```
 
-#### Use programmatically
+#### Use in a program
 ```python
 from artext import Artext
 
